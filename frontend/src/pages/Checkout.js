@@ -27,9 +27,9 @@ const Checkout = () => {
 
 
   var sum=0;
-  cartData.map((item,index)=>{
+  {cartData?cartData.map((item,index)=>{
     sum+=parseFloat(item.product.price)
-  })
+  }):"nothing"}
 
 
   if(cartData==null||cartData.length==0){
@@ -72,7 +72,7 @@ const Checkout = () => {
         </tr>
       </thead>
       <tbody>
-        {cartData.map((item,index)=>{
+        {cartData?cartData.map((item,index)=>{
           return(
                 <tr>
                 <td>{index+1}</td>
@@ -91,7 +91,7 @@ const Checkout = () => {
                 </td>
               </tr>
           )
-        })}
+        }):""}
       </tbody>
       <tfoot>
         <tr>
@@ -105,11 +105,11 @@ const Checkout = () => {
     <button className='btn2'  onClick={confirmOrder}>Proceed to payment</button>
     </>
     }
-    {
+    {cartData?
     cartData.length==0 && 
          <h4 className='h4_nothing_in_the_cart'> Nothing in the cart !</h4>
       
-    }
+    :"nothing is in the cart"}
     
 
   </div>
