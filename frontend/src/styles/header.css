@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_container{
+    height: 350px;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dadada;
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px;    
+    position: absolute;
+    /* z-index: -1; */
+} 
+.search{
+    padding: 25px 80px;
+    margin: 10px;
+    border-radius: 30px;
+    border:1px solid #dadada;
+    position: absolute;
+    left: 49%;
+    top: 59%;
+}
+
+.header_text{
+    margin-top: 40px;
+    font-family: cursive;
+    font-size: 45px;
+    color: #747474;
+}
+
+.header_text2{
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: 20px;
+    color: #121212;
+}
+
+.view_all_btn{
+    background-color: #121212;
+    color: #fff;
+    padding:  17px 27px;
+    border-radius: 30px;
+    position: absolute;
+    left: 88%;
+    bottom: 20%;
+    display: flex;
+    border: none;
+    cursor: pointer;
+}
+
+.view_all_btn1{
+    background-color: #121212;
+    color: #fff;
+    padding:  24px 37px;
+    border-radius: 30px;
+    position: absolute;
+    left: 75%;
+    bottom: 20%;
+    display: flex;
+    border: none;
+    cursor: pointer;
+}
+
+.view_all_btn:hover{
+    background-color:#121212e4 ;
+    transition: 0.3s;
+    color: #fff;    
+    border: none;
+    box-shadow: 0 0 0 0.5;
+}
+.view_all_btn1:hover{
+    background-color:#121212e4 ;
+    transition: 0.3s;
+    color: #fff;    
+    border: none;
+    box-shadow: 0 0 0 0.5;
+}
+
+.arrow{
+   font-size: 30px;
+}
+@media screen and (max-width: 950px){
+    .header_container{
+        height: 300px;
+        width: 100vw;
+        background-color: #fff;
+    }
+
+    .header_text{
+        font-size: 27px;
+    }
+
+    
+.view_all_btn{
+    padding: 5px 148px;
+    border-radius: 30px;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+
+.view_all_btn1{
+    background-color: #121212;
+    color: #fff;
+    padding:  12px 40px;
+    border-radius: 30px;
+    position: absolute;
+    left: 65%;
+    bottom: 26%;
+    display: flex;
+    border: none;
+}
+
+.arrow{
+    font-size: 30px;
+ }
+
+ .search{
+    padding: 11px 35px;
+    margin: 5px;
+    border-radius: 30px;
+    border:1px solid #dadada;
+    position: absolute;
+    left: 0%;
+    top: 60%;
+}
+}

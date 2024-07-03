@@ -1,0 +1,109 @@
+table button{
+    padding: 10px 20px;
+    margin: 2px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #00ffa6;
+}
+
+table button:hover{
+    scale: 0.8;
+    transition: 0.3s;
+}
+
+.add_product_btn a{
+   color: #fff;
+}
+
+.add_product_btn{
+    padding: 10px 40px;
+    margin: 20px;
+    border: 1px solid #00ff9d;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.add_product_btn:hover{
+    scale: 0.8;
+    transition: 0.3s;
+}
+
+.s_home_btn{
+    float: right;
+}
+
+.s_home_btn a{
+    color: #fff;
+}
+
+.delete_button:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+@media only screen and (max-width: 930px){
+    table{
+        height: auto;
+        width: 270px;
+    }
+
+    table button{
+        padding: 10px 20px;
+        margin: 2px;
+        border-radius: 20px;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #00ffa6;
+    }
+    
+    table button:hover{
+        scale: 0.8;
+        transition: 0.3s;
+    }
+    thead tr th:nth-child(1){
+        padding: 10px 15px;
+    }
+    
+    thead tr th:nth-child(2){
+        padding: 10px 50px;
+    }
+    
+    thead tr th:nth-child(3){
+        padding: 10px 10px;
+    }
+    
+    tbody tr td:nth-child(1){
+        text-align: center;
+        font-size: 10px;
+    }
+
+    tbody tr td:nth-child(2){
+        font-size: 10px;
+    }
+    
+    .add_product_btn{
+        padding: 10px 40px;
+        margin: 20px;
+        border: 1px solid #00ff9d;
+        background-color: transparent;
+        color: #fff;
+        border-radius: 20px;
+    }
+    
+    .add_product_btn:hover{
+        scale: 0.8;
+        transition: 0.3s;
+    }
+    
+    .s_home_btn{
+        float: right;
+    }
+    
+    .s_home_btn a{
+        color: #fff;
+    }
+
+
+
+}

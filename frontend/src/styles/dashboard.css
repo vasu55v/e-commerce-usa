@@ -1,0 +1,112 @@
+.dashboard_container{
+    height: 94vh;
+    width: 600px;
+    background-color: transparent;
+    font-size: 24px;
+    /* border: 1px solid #00fff2; */
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main_dashboard_container{
+   height: 100vh;
+}
+
+.home_dashboard a{
+    float:right;
+    color: #fff;
+}
+
+.total_order_box{
+    margin-top: 20px;
+    height: 150px;
+    width: 600px;
+    border: 1px solid #00fff2;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.total_order_box h3{
+    font-size: 100px;
+}
+
+.address_box{
+    height: 150px;
+    width: 600px;
+    border: 1px solid #00fff2;
+    text-align: center;
+}
+
+.address_box h3{
+    font-size: 100px;
+}
+
+.dashboard_list{
+    height: 90vh;
+}
+
+.dashboard_list a{
+    color: #000;
+}
+
+.dashboard_list li{
+    padding: 23px;
+    background-color: #fff;
+}
+
+hr{
+    background-color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 930px){
+
+    .dashboard_container{
+        height:90vh;
+        width: 220px;
+        background-color: transparent;
+        font-size: 20px;
+        /* border: 1px solid #00fff2; */
+        margin-top: 40px;
+    }
+    
+    
+    .home_dashboard a{
+        float:right;
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    .total_order_box{
+        margin-top: 20px;
+        height: 150px;
+        width: 100%;
+        border: 1px solid #00fff2;
+    }
+    
+    .address_box{
+        height: 150px;
+        width: 100%;
+        border: 1px solid #00fff2;
+    }
+
+    .dashboard_list{
+        height: 61vh;
+    }
+ 
+}
+
+
+@media only screen and (max-width: 500px){
+    .dashboard_container{
+        height:65vh;
+    }
+    
+}
+
+
+@media only screen and (max-width: 350px){
+    .dashboard_container{
+        height:68vh;
+    }
+    
+}

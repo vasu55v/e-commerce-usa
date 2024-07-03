@@ -1,0 +1,145 @@
+.s_table_container{
+    background-color: transparent;
+ }
+ img{
+    height: 80px;
+    width: 80px;
+ }
+ .s_order_small_div{
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .s_home_btn a{
+     color: #fff;
+ }
+ 
+ thead tr th:nth-child(1){
+     padding: 20px 50px;
+ }
+ 
+ thead tr th:nth-child(2){
+     padding: 20px 200px;
+ }
+ 
+ thead tr th:nth-child(3){
+     padding: 20px 100px;
+ }
+ 
+ tbody tr td:nth-child(1){
+     text-align: center;
+ }
+ 
+ .s_product_name{
+     font-size: 20px;
+     font-weight:600;
+     padding-top: 10px;
+ }
+ 
+ .s_product_price{
+     font-size: 30px;
+     text-align: center;
+ }
+ 
+ tfoot tr td{
+     font-size: 25px;
+     padding: 20px;
+ }
+ tfoot tr td:nth-child(2){
+         text-align: center;
+ }
+ 
+ tfoot tr td:nth-child(3){
+     text-align: center;
+ }
+ 
+ .s_btn1{
+     padding: 20px 30px;
+     border: 1px solid #00ff9d;
+     border-radius: 20px;
+     margin-right: 10px;
+     margin-left: 460px;
+     margin-top: 10px;
+     background-color: transparent;
+     color: #fff;
+ }
+ 
+ .s_btn2{
+     padding: 20px 30px;
+     border: 1px solid #00ff9d;
+     border-radius: 20px;
+     background-color: transparent;
+     color: #fff;
+ }
+ 
+ @media only screen and (max-width: 930px){
+    img{
+        height: 50px;
+        width: 50px;
+    }
+
+     .s_table_container{
+         background-color: transparent;
+      }
+      table{
+        width: 100%;
+      }
+      
+      thead tr th:nth-child(1){
+          padding: 10px 5px;
+      }
+      
+      thead tr th:nth-child(2){
+          padding: 10px 0px;
+      }
+      
+      thead tr th:nth-child(3){
+          padding: 10px 0px;
+      }
+      
+      tbody tr td:nth-child(1){
+          text-align: center;
+      }
+      
+      .s_product_name{
+          font-size: 15px;
+          font-weight:600;
+          padding-top: 10px;
+      }
+      
+      .s_product_price{
+          font-size: 15px;
+          text-align: center;
+      }
+      
+      tfoot tr td{
+          font-size: 10px;
+          font-weight: 600;
+          padding: 20px;
+      }
+      tfoot tr td:nth-child(2){
+         text-align: center;
+      }
+      
+      .s_btn1{
+         padding: 15px 15px;
+         border: 1px solid #00ff9d;
+         border-radius: 20px;
+         margin-right: 5px;
+         margin-left: 5px;
+         margin-top: 10px;
+         background-color: transparent;
+         color: #fff;
+     }
+     
+     .s_btn2{
+         padding: 15px 15px;
+         border: 1px solid #00ff9d;
+         border-radius: 20px;
+         background-color: transparent;
+         color: #fff;
+         margin-left:60px;
+ 
+     }
+      
+ }

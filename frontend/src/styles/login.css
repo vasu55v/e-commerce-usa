@@ -1,0 +1,87 @@
+.main_login_component{
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.login_component input{
+    padding: 15px 60px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin: 15px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.login_component h1{
+    text-align: center;
+}
+
+.submit_btn{
+    background-color: transparent;
+    color: #fff;
+    padding:15px 140px;
+    border:1px solid #00ffb7;
+    border-radius: 20px; 
+}
+
+.submit_btn:hover{
+   scale: 0.8;
+   transition: 0.3s;
+}
+
+.home_btn{
+    float: right;
+    color: #fff;
+}
+
+.err_msg{
+    margin: 20px 0px;
+    font-size: 18px;
+    color: red;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.success_msg{
+    margin: 20px 0px;
+    font-size: 18px;
+    color: rgb(0, 255, 8);
+    border: 1px solid rgb(85, 255, 0);
+    text-align: center;
+}
+
+@media only screen and (max-width: 930px){
+    .login_component input{
+        padding: 10px 60px;
+        margin-left:50px ; 
+    }
+
+    .login_component label{
+        margin-left:50px ; 
+    }
+    
+    .login_component h1{
+        text-align: center;
+    }
+    
+    .submit_btn{
+        background-color: transparent;
+        color: #fff;
+        padding:15px 100px;
+        border:1px solid #00ffb7;
+        border-radius: 20px;
+        margin-left:50px ; 
+    }
+    
+    .submit_btn:hover{
+       scale: 0.8;
+       transition: 0.3s;
+    }
+    
+    .home_btn{
+        float: right;
+        color: #fff;
+    }
+    
+}

@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    width:100%;
+    background-color: rgb(0, 0, 0);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* z-index:-1; */
+}
+
+.main_nav_container{
+    height: 100vh;
+    width:250px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.close_btn{
+    display: block;
+    padding-left: 50%;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgba(73, 73, 73, 0.668);
+    border: none;
+    border-radius: 20px;
+}
+
+.ul_list{
+    display:inline-block;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px; 
+     
+}
+
+ul li{
+    margin: 8px;
+  
+}
+
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: cursive;  
+}
+
+ul li{
+    list-style: none;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    font-family: cursive;
+    line-height: 60px;
+}
+
+.bar_icon{
+    display: none;
+    color: #fff;
+    padding-top: 15px;
+}
+
+ul li a:hover{
+    transition: 0.3s;
+    padding: 15px;
+    border-radius: 30px;
+    opacity: 0.5;
+    scale: 1;
+} 
+
+.open-nva-icon{
+    display: flex;
+    color: #fff;
+}
+
+.shopping_cart{
+    font-size: 25px;
+    padding-top: 19px;
+    padding-right: 10px;
+}
+
+.cart_item_number{
+    background-color: red;
+    color: #fff;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.cart_item_number2{
+    background-color: red;
+    color: #fff;
+    margin: 4px;
+    padding: 0px;
+    border-radius: 20%;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+.user_profile{
+    font-size: 24px;
+    padding-right: 7px;
+    padding-top: 20px;
+}
