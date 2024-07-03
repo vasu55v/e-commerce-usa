@@ -78,6 +78,8 @@ import { ACCESS_TOKEN, REFRESH_TOKEN } from "../constants";
 import '../styles/productcart.css';
 import { useNavigate, Link } from "react-router-dom";
 import Product from '../pages/Product';
+import loading from '../loading.gif'
+
 
 const ProductCart = () => {
   const [products, setProducts] = useState([]);
@@ -91,6 +93,7 @@ const ProductCart = () => {
       try {
         const res = await api.get(`/api/product/?page=${currentPage}`);
         setProducts(res.data.results);
+        console.log(res.data.results)
         setTotalCount(res.data.count);
       } catch (error) {
         console.log(error);
@@ -148,7 +151,7 @@ const ProductCart = () => {
             </ul>
           ))
         ) : (
-          <p>Loading...</p>
+          <img src={loading} height={50} width={50} />
         )}
       </div>
       <ul className='ul_for_pagination'>

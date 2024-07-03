@@ -2,7 +2,7 @@ import React, { useEffect, useState} from "react";
 import "../styles/profile.css";
 import api from '../api.js';
 import { useParams } from "react-router-dom";
-
+import loading from '../loading.gif'
 
 const VendorProductUpdate = () => {
   
@@ -190,7 +190,7 @@ const VendorProductUpdate = () => {
           {Array.isArray(category) && category.length > 0 ? (
           category.map((cate,index)=><option selected={cate.id==ProductData.category} value={cate.id} key={index}>{cate.title}</option>)
           ):(
-            <p>Loading....</p>
+            <img src={loading} height={50} width={50} />
           )
           }
           
