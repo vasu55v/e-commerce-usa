@@ -183,6 +183,7 @@ const Product = () => {
         },
       },
     ];
+    
     if (cartJson !== null) {
       cartJson.push(cartData[0]);
       const cartString = JSON.stringify(cartJson);
